@@ -1,15 +1,10 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import App from "./App.jsx";
-import "./index.css";
-
-import { createStore } from "redux";
-
-import allReducers from "./Redux/Reducers/combineReducer";
+import ReactDOM from "react-dom/client";
 import { Provider } from "react-redux";
 
-// The Created Store
-const store = createStore(allReducers);
+import App from "./App.jsx";
+import "./index.css";
+import store from "./Redux/Store.js";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
@@ -18,4 +13,3 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         </Provider>
     </React.StrictMode>
 );
-
