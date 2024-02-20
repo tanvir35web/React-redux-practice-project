@@ -7,7 +7,10 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'anta': 'Anta',
+        
+        'himu': "Himu",
+        'solaiman': "Solaiman",
+        'anta': ['Anta']
         
       }
     },

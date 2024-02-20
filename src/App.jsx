@@ -11,7 +11,7 @@ function App() {
 
     const authentication = auth ? (
         <div>
-            <p>Hello, I am Tanvirul Islam. Now I am learning React - Redux</p>
+            <p className="font-anta"> Hello, I am Tanvirul Islam. Now I am learning React - Redux. আমার নাম তানভীরুল ইসলাম </p> 
         </div>
     ) : null;
 
@@ -29,7 +29,7 @@ function App() {
                 <div className="flex gap-2 mb-4">
                     <Button
                         onClick={() => dispatch(decrement())}
-                        label={"Decrement"}
+                        label={"Decrement"} 
                     />
                     <Button onClick={() => dispatch(reset())} label={"Reset"} />
                     <Button
@@ -39,7 +39,7 @@ function App() {
                 </div>
 
                 <SubTittle
-                    className="text-yellow-500 my-4"
+                    className="text-yellow-500 my-4 text-5xl"
                     label={"For Logged in User Only"}
                 />
                 <p className="my-3">Login to see a secret about me</p>

@@ -7,4 +7,14 @@
         font-family: "Anta";
         src: url("../public/font/Anta-Regular.ttf");
     }
+    @font-face {
+        font-family: "Himu";
+        src: url("../public/font/FN\ Himu\ Regular.ttf");
+    }
+    @font-face {
+        font-family: "Solaiman";
+        src: url("../public/font/SolaimanLipi_20-04-07.ttf");
+    }
 }
+
+
