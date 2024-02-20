@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "Anta";
+        src: url("../public/font/Anta-Regular.ttf");
+    }
+}

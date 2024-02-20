@@ -18,11 +18,11 @@ function App() {
     return (
         <>
             <div className="bg-black w-full h-[100vh] text-white flex flex-col items-center gap-1 justify-center">
-                <h1 className="text-5xl mb-8 border py-4 px-8 rounded-xl border-yellow-500">
+                <h1 className="text-5xl mb-8 border py-4 px-8 rounded-xl border-yellow-500 ">
                     A LITTLE REDUX PROJECT
                 </h1>
                 <SubTittle label={"Counter App"} />
-                <h3 className="text-5xl p-6 m-4 rounded-xl bg-green-700 font-bold">
+                <h3 className="text-5xl p-6 m-4 rounded-xl bg-green-700 font-anta font-bold">
                     {counter}
                 </h3>
 
